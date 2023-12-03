@@ -1,0 +1,369 @@
+/* font-family: 'Kaushan Script', cursive;
+font-family: 'Lato', sans-serif; 
+*/
+
+body {
+    background-image: url(img/corkboard.jpg);
+    background-repeat: repeat;
+}
+
+.navbar {
+    font-family: 'Kaushan Script', cursive;
+    font-size: 1.5rem;
+
+}
+
+.custom-bg-color {
+    background-color: #FFFCB9;
+}
+
+.nav-item{
+    padding: 0 30px 0 30px;
+}
+
+.custom-bg-color2 {
+    background-color: #cee5ff;
+}
+
+
+header img, .carousel {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 75%;
+    margin-top: 20px;
+}
+
+
+.accordion-button {
+    font-family: 'Kaushan Script', cursive;
+    margin-top: 20px;
+}
+
+.accordion-body {
+    font-family: 'Lato', sans-serif;
+    text-align: center;
+    color: #2e2d2c;
+}
+
+li {
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+    margin: 0;
+}
+
+.signoff {
+    font-family: 'Kaushan Script', cursive;
+}
+
+.place_titleGreen {
+    font-size: 45px;
+    font-family: 'Kaushan Script', cursive;
+    color:#56351e;
+    background-color: #AFF5E4;
+    text-align: center;
+    width:500px;
+    padding: 20px 0 20px 0;
+    margin: 20px auto 20px auto;
+    display: block;
+}
+.place_titleGreenSmall {
+    font-size: 36px;
+    font-family: 'Kaushan Script', cursive;
+    color:#56351e;
+    background-color: #AFF5E4;
+    text-align: center;
+    width:500px;
+    padding: 10px 0 10px 0;
+    margin: 20px auto 20px auto;
+    display: block;
+}
+
+.place_titleBlue {
+    font-size: 45px;
+    font-family: 'Kaushan Script', cursive;
+    color:#56351e;
+    background-color: #cee5ff;
+    text-align: center;
+    width:500px;
+    padding: 20px 0 20px 0;
+    margin: 20px auto 20px auto;
+    display: block;
+}
+
+.date_titleBlue {
+    font-size: 36px;
+    font-family: 'Kaushan Script', cursive;
+    color:#56351e;
+    background-color: #cee5ff;
+    text-align: center;
+    width: 600px;
+    padding: 20px 10px 20px 10px;
+    margin: 20px auto 20px auto;
+    display: block;
+}
+
+.place_titleYellow {
+    font-size: 45px;
+    font-family: 'Kaushan Script', cursive;
+    color:#56351e;
+    background-color: #FFFCB9;
+    text-align: center;
+    width:500px;
+    padding: 20px 0 20px 0;
+    margin: 20px auto 20px auto;
+    display: block;
+}
+
+.flex-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.postcard img {
+    width: 700px;
+    height: auto;
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    background-color: whitesmoke;
+}
+
+.postcard video {
+    width: 500px;
+    height: auto;
+    padding: 15px;
+    margin: 20px 0 20px 0;
+    background-color: beige;
+}
+
+
+.map {
+    padding: 15px;
+    background-color: beige;
+}
+
+.car img {
+    width: 100%;
+    height: auto;
+}
+
+.postit {
+    width: 300px;
+    height: 300px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.postitM {
+    width: 400px;
+    height: 300px;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.postitL {
+    width: 450px;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    margin: 20px;
+}
+
+.postitDiary img{
+    width: auto;
+    height: 700px;
+    margin: 20px;
+    box-shadow: 10px 10px #dad69b;
+}
+
+
+.postitYellow {
+    background-color: #FFFCB9;
+    box-shadow: 10px 10px #dad69b;
+}
+
+.postitBlue {
+    background-color: #cee5ff;
+    box-shadow: 10px 10px #a8c2de;
+}
+
+.postitGreen {
+    background-color: #AFF5E4;
+    box-shadow: 10px 10px #95cec1;
+}
+
+.polaroid {
+    padding: 10px 10px 10px 10px;
+    background-color: white;
+    box-shadow: 10px 10px rgb(200, 200, 200);
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    margin: 20px;
+}
+
+.polaroid h4 {
+    padding-top: 10px;
+    color: #2e2d2c;
+}
+.polaroid h6 {
+    padding-top: 10px;
+    color: #2e2d2c;
+}
+
+
+.polaroid a{
+    text-decoration: none;
+}
+
+.postit a {
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    color: #2e2d2c
+}
+
+.postit_title {
+    font-family: 'Kaushan Script', cursive;
+    color: #56351e;
+    font-size: 32px;
+}
+
+.postit_content{
+    font-family: 'Lato', sans-serif;
+    color: #2e2d2c;
+    font-size: 16px;
+}
+
+
+
+footer {
+    background-color: #FFFCB9;
+    color: #2e2d2c;
+    font-family: 'Lato', sans-serif; 
+    height: 50px;
+    padding: 10px;
+}
+
+footer p {
+    padding: 5px 0 5px 50px;
+}
+
+.car img {
+    object-fit: scale-down;
+    object-position: center;
+    height: 75vh;
+    overflow: hidden;
+}
+
+
+.numbertext {
+    background-color: #cee5ff;
+    color: #56351e;
+    font-family: 'Lato', sans-serif;
+    font-weight: bold;
+    width: 60px;
+    height: 25px;
+    text-align: center;
+}
+.slide {
+        background-color: #2e2d2c98;
+        padding-bottom: 25px;
+}
+
+#myBtn {
+    display: none; /* Hidden by default */
+    position: fixed; /* Fixed/sticky position */
+    bottom: 20px; /* Place the button at the bottom of the page */
+    right: 30px; /* Place the button 30px from the right */
+    z-index: 99; /* Make sure it does not overlap */
+    border: none; /* Remove borders */
+    outline: none; /* Remove outline */
+    background: linear-gradient(to bottom right, #cee5ff 0%, #aff5e4 100%); /* Set a background color */
+    color: #56351e; /* Text color */
+    cursor: pointer; /* Add a mouse pointer on hover */
+    padding: 15px; /* Some padding */
+    border-radius: 40px; /* Rounded corners */
+    font-family: 'Kaushan Script', cursive;
+    font-size: 20px; /* Increase font size */
+    font-weight: bold;
+  }
+  
+  #myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+
+@media only screen and (min-width: 300px) and (max-width: 600px){
+    footer {
+        height: 80px;
+        padding: 10px;
+    }
+
+    .postitL {
+        width: 90%;
+        height: auto;
+    }
+        /* .postitM {
+            width: 100%;
+            height: auto;
+
+        }
+        /
+        .postitL {
+            width: 100%;
+            height: auto;
+
+    } */
+
+
+}
+
+@media only screen and (max-width: 992px) {
+    header img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+    .carousel {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+        margin-top: 20px;
+    }
+
+    .postcard img{
+        width: 100%;
+        height: auto;
+      }
+
+      .postcard video {
+        width: 100%;
+        height: auto;
+      }
+.postitDiary img{
+    width: 85%;
+    height: auto;
+}
+      .date_titleBlue {
+        width: 100%;
+      }
+
+      .place_titleGreen {
+        width:100%;
+    }
+    .place_titleGreenSmall {
+        width:100%;
+    }
+   .map iframe {
+        width: 100%;
+        height: auto;
+    }
+}
